@@ -1,0 +1,5 @@
+{
+  "username": "admin",
+  "password": "admin",
+  "address": "http://localhost:9966/petclinic"
+}
