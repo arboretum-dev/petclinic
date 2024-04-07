@@ -7,7 +7,7 @@ This tutorial also provides step by step instruction to help reads with little p
 ## Software requirements
 
 - Operating system
-  - macOS 10.15 (Catalina)+
+  - macOS 14+
   - Windows(?)
 
 - Dev Tools 
@@ -36,6 +36,7 @@ This tutorial also provides step by step instruction to help reads with little p
       - ```
         brew install git
         ```
+    - You might need to re-install homebrew to get brew/git installed properly
   - JDK 17+
     - Check JDKs
       - ```
@@ -151,7 +152,6 @@ This tutorial also provides step by step instruction to help reads with little p
     - Copy the following line and paste it at the end of your ~/.zshrc file.
       - ```
         export PATH=/opt/homebrew/lib/ruby/gems/3.2.0/bin:$HOME/.gem/bin:$PATH
-        source ~/.zshrc
         ```
 
 - Check your development setup
