@@ -3,6 +3,7 @@
 // is governed by a BSD-style license that can be found in the LICENSE file.
 
 import 'package:flutter/material.dart';
+import 'package:flutterpetclinic/map_page.dart';
 
 import 'owners/owners_page.dart';
 import 'veterinarians/veterinarians_page.dart';
@@ -45,7 +46,8 @@ class _MyHomepageState extends State<MyHomepage> {
   static List<Widget> _widgetOptions = <Widget>[
     Text(''),
     OwnersPage(title: 'PetClinic'),
-    VeterinariansPage(title: 'PetClinic'),
+    // VeterinariansPage(title: 'PetClinic'),
+    MapPage(title: 'Map'),
   ];
 
   /**
@@ -79,9 +81,13 @@ class _MyHomepageState extends State<MyHomepage> {
             icon: Icon(Icons.people),
             label: 'Owners'
           ),
+          // BottomNavigationBarItem(
+          //   icon: Icon(Icons.local_hospital),
+          //     label: 'Vets'
+          // ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.local_hospital),
-              label: 'Vets'
+              icon: Icon(Icons.local_hospital),
+              label: 'Map'
           ),
         ],
         currentIndex: _selectedIndex,
