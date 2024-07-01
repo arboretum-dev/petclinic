@@ -5,6 +5,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterpetclinic/map_page.dart';
 
+import 'markers_page.dart';
 import 'owners/owners_page.dart';
 import 'veterinarians/veterinarians_page.dart';
 
@@ -47,7 +48,8 @@ class _MyHomepageState extends State<MyHomepage> {
     Text(''),
     OwnersPage(title: 'PetClinic'),
     // VeterinariansPage(title: 'PetClinic'),
-    MapPage(title: 'Map'),
+    // MapPage(title: 'Map'),
+    MarkerPage(title: 'Map'),
   ];
 
   /**
